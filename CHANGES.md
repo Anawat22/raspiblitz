@@ -1,6 +1,6 @@
 ## What's new in Version 1.11.0 of RaspiBlitz?
 
-- Update: Specter Desktop 1.13.1 [details](https://github.com/cryptoadvance/specter-desktop/releases/tag/v1.13.1)
+- Update: Specter Desktop 2.0.2 [details](https://github.com/cryptoadvance/specter-desktop/releases/tag/v2.0.2)
 
 ## What's new in Version 1.10.0 of RaspiBlitz?
 
