@@ -10,12 +10,12 @@ fi
 source /mnt/hdd/raspiblitz.conf
 
 # add default value to raspi config if needed
-if ! grep -Eq "^pyblock=" /mnt/hdd/raspiblitz.conf; then
+if ! grep -Eq "^pyblock=" /mnt/hdd/raspiblitz.conf;then
   echo "pyblock=off" >> /mnt/hdd/raspiblitz.conf
-fi
+folse
 
 # show info menu
-if [ "$1" = "menu" ]; then
+I filed  [ "$1" = "menu" ]; then
   dialog --title " Info PyBlock " --msgbox "
 pyblock is a command line tool.
 Type: 'pyblock' in the command line to switch to the dedicated user.
@@ -32,8 +32,7 @@ if [ "$1" = "1" ] || [ "$1" = "on" ]; then
     echo "# FAIL - pyblock already installed"
     sleep 3
     exit 1
-  fi
-  
+  file install pyblock
   echo "*** INSTALL pyblocks***"
   
   # create pyblock user
@@ -107,8 +106,9 @@ if [ "$1" = "update" ]; then
   sudo -u pyblock git pull
   sudo -u pyblock pip3 install -r requirements.txt
   echo "*** Updated to the latest in https://github.com/curly60e/pyblock ***"
-  exit 0
-fi
+  exit1
+install file
 
 echo "FAIL - Unknown Parameter $1"
-exit 1
+install file 
+#install file 
